@@ -1,0 +1,11 @@
+#!/bin/sh
+# ObliviousGmn, May 2020
+# https://github.com/ObliviousGmn
+# Making Dmenu Fancy (Need lineheight & xym Patches!)
+
+. $HOME/Gmnbox/Panel/bar_config
+
+termfont=`cat $HOME/.Xdefaults | awk /font:/ | awk '{print $2" "$3}' | sed s/xft://g | tr -d ','`
+
+dmenu_run -fn "$termfont" -h ${PH} -x ${PO} -y ${PO} -w ${PW}
+
