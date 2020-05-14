@@ -1,0 +1,21 @@
+# ObliviousGmn, April 2015
+# https://github.com/ObliviousGmn
+# Sxhkd - Shortcuts
+
+super + Return
+    urxvt
+
+XF86LaunchA 
+    Dmenu
+
+XF86Audio{Raise,Lower}Volume
+    amixer set Master {1dB+,1dB-}
+
+XF86AudioMute
+    amixer set Master toggle
+
+XF86LaunchB
+   Lockscreen -a
+
+XF86KbdBrightnessUp
+	screenshot

@@ -1,0 +1,26 @@
+# ObliviousGmn. May 2020
+# https://github.com/ObliviousGmn
+# Xdefaults 
+ 
+#include "/home/doku/Gmnbox/Colors/gintage"
+ Xft.autohint: 0
+ Xft.antialias: true
+
+ *font:	         xft:artwiz smoothansi:pixelsize=12, -wuncon-siji-medium-r-normal--*-100-75-75-c-80-iso10646-1
+ *boldFont:	     xft:artwiz smoothansi:pixelsize=12, -wuncon-siji-medium-r-normal--*-100-75-75-c-80-iso10646-1 
+ 
+ *scrollBar: 	false
+ *geometry:   	100x10
+ *cursorBlink: 	true
+ *cursorUnderline: true
+ *internalBorder: 6
+ *perl-ext-common: default,matcher
+ *url-launcher: /usr/bin/luakit
+ *matcher.button: 1
+
+# Twobwm
+ twobwm.inverted_colors: false
+ twobwm.border_width: 3
+ twobwm.outer_border: 1
+ twobwm.enable_compton: true
+
